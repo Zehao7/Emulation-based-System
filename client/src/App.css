@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.lvl1Section {
+  border: solid;
+  padding: 10px;
+}
+
+.lvl2Section {
+  border: dashed;
+  border-width: 2px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column2 {
+  flex: 1;
+}
+
+.column3 {
+  flex: 1;
+}
+
+.textbody {
+  white-space: pre-wrap;
+}
